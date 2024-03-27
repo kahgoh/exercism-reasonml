@@ -17,7 +17,7 @@
     "highlightjs_language": "reasonml"
   },
   "test_runner": {
-    "average_run_time": 7.0
+    "average_run_time": 7
   },
   "files": {
     "solution": [
@@ -27,7 +27,7 @@
       "__tests__/%{pascal_slug}_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ],
     "exemplar": [
       ".meta/src/Exemplar.re"
@@ -37,7 +37,6 @@
     ]
   },
   "exercises": {
-    "concept": [],
     "practice": [
       {
         "slug": "hello-world",
@@ -79,7 +78,7 @@
       },
       {
         "slug": "rna-transcription",
-        "name": "Rna Transcription",
+        "name": "RNA Transcription",
         "uuid": "9690c216-d999-4b44-b73c-b7a8d776cf5d",
         "practices": [],
         "prerequisites": [],
@@ -118,6 +117,14 @@
         ]
       },
       {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "6481f0dc-faaa-4c93-a380-953619f4934b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
@@ -131,7 +138,7 @@
       },
       {
         "slug": "run-length-encoding",
-        "name": "Run Length Encoding",
+        "name": "Run-Length Encoding",
         "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
         "practices": [],
         "prerequisites": [],
@@ -147,8 +154,7 @@
         "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": []
+        "difficulty": 1
       },
       {
         "slug": "two-fer",
@@ -339,51 +345,66 @@
           "regular_expressions",
           "strings"
         ]
+      },
+      {
+        "slug": "triangle",
+        "name": "Triangle",
+        "uuid": "01d5ea7c-00f3-4acc-900a-387ba54d348e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "list-ops",
+        "name": "List Ops",
+        "uuid": "17bed5bf-1795-4d51-b1cb-89d7d960d9ee",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },
-  "concepts": [],
   "key_features": [
     {
-      "icon": "stable",
       "title": "OCaml's type system",
-      "content": "ReScript brings OCaml's battle-tested powerful type system to Javascript."
+      "content": "ReasonML brings OCaml's battle-tested powerful type system to Javascript.",
+      "icon": "stable"
     },
     {
-      "icon": "immutable",
       "title": "Inferred types",
-      "content": "No need to specify types, types are inferred by ReScript compiler and are guaranteed to be correct."
+      "content": "No need to specify types, types are inferred by the compiler and are guaranteed to be correct.",
+      "icon": "immutable"
     },
     {
-      "icon": "functional",
       "title": "Functional Programming",
-      "content": "Like OCaml, ReScript is a functional programming language with pattern matching, variants and more."
+      "content": "Like OCaml, ReasonML is a functional programming language with pattern matching, variants and more.",
+      "icon": "functional"
     },
     {
-      "icon": "interop",
       "title": "Easy javascript interop",
-      "content": "Javascript interop is easy allowing advatange of existing javascript packages and ecosystem."
+      "content": "JavaScript interop is easy allowing advatange of existing javascript packages and ecosystem.",
+      "icon": "interop"
     },
     {
-      "icon": "fast",
       "title": "Fast compiler",
-      "content": "ReScript compilation times are super fast which means fast iteration cycles."
+      "content": "ReasonML compilation times are super fast which means fast iteration cycles.",
+      "icon": "fast"
     },
     {
-      "icon": "fun",
       "title": "Refactor with ease",
-      "content": "Compiler guides you through all places that need to be fixed during refactor until it just works."
+      "content": "Compiler guides you through all places that need to be fixed during refactor until it just works.",
+      "icon": "fun"
     }
   ],
   "tags": [
-    "paradigm/functional",
-    "typing/static",
-    "typing/strong",
     "execution_mode/compiled",
+    "paradigm/functional",
     "platform/linux",
     "platform/mac",
-    "platform/windows",
     "platform/web",
+    "platform/windows",
+    "typing/static",
+    "typing/strong",
     "used_for/frontends",
     "used_for/web_development"
   ]
